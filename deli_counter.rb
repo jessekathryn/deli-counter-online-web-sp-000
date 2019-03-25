@@ -17,7 +17,7 @@ def take_a_number(katz_deli, patron)
   
 def now_serving(line)
  if line.length >= 1
-  puts line.shift
+  line.shift
  else 
   puts "There is nobody waiting to be served!"
   end
